@@ -9,77 +9,106 @@
         body {
             margin: 0;
             padding: 0;
-            background: linear-gradient(to bottom, #0a0a0a, #111);
-            color: #ffcc00;
+            background: linear-gradient(to bottom, #000000, #121212);
+            color: #ffffff;
             font-family: 'Poppins', sans-serif;
             display: flex;
             align-items: center;
             justify-content: center;
             height: 100vh;
             text-align: center;
-            overflow: hidden;
+            flex-direction: column;
+            padding: 20px;
         }
         .container {
-            max-width: 800px;
+            max-width: 90%;
             padding: 40px;
+            background: #1a1a1a;
+            border-radius: 20px;
+            box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
         }
         h1 {
             font-size: 2.5rem;
             text-transform: lowercase;
-            letter-spacing: 3px;
-            text-shadow: 2px 2px 8px #ffcc00;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
         }
         p {
             font-size: 1rem;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             color: #cccccc;
         }
         .email-input {
-            width: 70%;
-            padding: 12px;
+            width: 80%;
+            padding: 14px;
             border: none;
-            border-radius: 5px;
-            margin-top: 10px;
+            border-radius: 20px;
             outline: none;
+            background: #252525;
+            color: #ffffff;
+            text-align: center;
         }
         .notify-btn {
-            background: #ffcc00;
-            color: #0a0a0a;
+            background: #2979ff;
+            color: #ffffff;
             border: none;
-            padding: 12px 25px;
-            border-radius: 5px;
+            padding: 14px 30px;
+            border-radius: 25px;
             font-size: 1rem;
             cursor: pointer;
             transition: 0.3s;
+            margin-top: 15px;
+            box-shadow: 0px 4px 10px rgba(41, 121, 255, 0.3);
         }
         .notify-btn:hover {
-            background: #e6b800;
+            background: #1e5fdb;
         }
         .social-icons {
             margin-top: 40px;
         }
         .social-icons a {
-            color: #ffcc00;
+            color: #2979ff;
             margin: 0 15px;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             text-decoration: none;
             transition: 0.3s;
         }
         .social-icons a:hover {
             color: #ffffff;
         }
+        .resume {
+            margin-top: 50px;
+        }
+        .resume a {
+            font-size: 1rem;
+            color: #ffffff;
+            text-decoration: none;
+            background: #2979ff;
+            padding: 12px 24px;
+            border-radius: 25px;
+            box-shadow: 0px 4px 10px rgba(41, 121, 255, 0.3);
+            transition: 0.3s;
+        }
+        .resume a:hover {
+            background: #1e5fdb;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>siddharth.fun</h1>
-        <p>something cool is coming soon... probably. stay tuned, or don’t. but you should. seriously.</p>
+        <p>i'm siddharth shekhar, a go-lang ninja, full-stack dev, and software engineer intern at scalex. 
+        when i'm not coding, i'm either making memes, drinking coffee, or pretending to debug.</p>
+        <p>my portfolio is under construction. until then, grab my resume and pretend you knew me before i got famous.</p>
+        <div class="resume">
+            <a href="https://drive.google.com/file/d/1CM-ilH8sqUFhRU0EvwXCXOgfbP62BZaF/view?usp=drive_link" target="_blank">download my resume</a>
+        </div>
         <input type="email" class="email-input" placeholder="drop your email (no spam, promise)">
-        <button class="notify-btn">notify me (or not)</button>
+        <button class="notify-btn">notify me</button>
         <div class="social-icons">
-            <a href="#">🔗 linkedin</a>
-            <a href="#">📷 instagram</a>
-            <a href="#">🐦 twitter</a>
+            <a href="https://www.linkedin.com/in/siddharttth" target="_blank">🔗 linkedin</a>
+            <a href="https://www.instagram.com/siddharttth" target="_blank">📷 instagram</a>
+            <a href="https://x.com/_siddharttth" target="_blank">🐦 x</a>
         </div>
     </div>
 </body>
